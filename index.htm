@@ -3,15 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font- awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./slider.css">
     <title>Arquivos agenda 8</title>
 </head>
 <body>
-    <h1>Olá Professor</h1>
-    <p>
-        Está uma pagina super simples, sómente para servir os arquivos <br>
-        da agenda 8 de Desenvolvimento de Sistemas 2. <br>
-        Aqui está o arquivo do video sugerido para o fichário <br>
-        <a href="./2023-10-01_06-21-33.mkv">Video do fichário</a> <br>
-    </p>
+    <div class="w3-container">
+        <div class="w3-row">
+            <div class="w3-col w3-half">
+                <br>
+                <h1>Olá Professor</h1>
+                <br>
+                
+                <p>
+                    Está uma pagina super simples, sómente para servir os arquivos <br>
+                    da agenda 8 de Desenvolvimento de Sistemas 2. <br>
+                    Aqui está o arquivo do video sugerido para o fichário <br>
+                    <a href="./2023-10-01_06-21-33.mkv">Video do fichário</a> <br>
+                    
+                    
+                </p>
+            </div>  
+            <div class="w3-col w3-half">
+                <video width="480" height="360" controls="controls" autoplay="autoplay">
+                    <source src="./2023-10-01_06-21-33.mkv">
+                    <object data="" width="480" height="360">
+                    <embed width="480" height="360" src="./2023-10-01_06-21-33.mkv">
+                    </object>
+                    </video> 
+            </div>  
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="w3-row">
+        <div class="w3-col w3-third">
+            <p>
+                Aqui está o link para a apresentação power point <br>
+                <a href="./ficharioAgenda8.pptx">Apresentação sobre o cadastro do amigo da Gabi</a>
+            </p>
+            <br>
+        </div>
+        <div class="w3-border-bottom"></div>
+        <div class="w3-col w3-half">
+            <ul class="slider">
+                <li>
+                      <input type="radio" id="slide1" name="slide" checked>
+                      <label for="slide1"></label>
+                      <img src="./img/1.jpg" />
+                </li>
+                <li>
+                      <input type="radio" id="slide2" name="slide">
+                      <label for="slide2"></label>
+                      <img src="./img/2.jpg" />
+                </li>
+                <li>
+                      <input type="radio" id="slide3" name="slide">
+                      <label for="slide3"></label>
+                      <img src="./img/3.jpg" />
+                </li>
+                <li>
+                    <input type="radio" id="slide4" name="slide">
+                    <label for="slide4"></label>
+                    <img src="./img/4.jpg" />
+                </li>
+                <li>
+                    <input type="radio" id="slide5" name="slide">
+                    <label for="slide5"></label>
+                    <img src="./img/5.jpg" />
+                </li>
+                <li>
+                    <input type="radio" id="slide6" name="slide">
+                    <label for="slide6"></label>
+                    <img src="./img/6.jpg" />
+                </li>
+                <li>
+                    <input type="radio" id="slide7" name="slide">
+                    <label for="slide7"></label>
+                    <img src="./img/7.jpg" />
+                </li>
+                <li>
+                    <input type="radio" id="slide8" name="slide">
+                    <label for="slide8"></label>
+                    <img src="./img/8.jpg" />
+                </li>
+            </ul>
+            <br>
+        </div>
+        <br>
+    </div>
 </body>
 </html>
