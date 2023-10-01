@@ -1,2 +1,4 @@
 # ds2agenda8fichario
-fichario Desenvolvimentos de Sistemas 2, agenda 8. Arquivos
+Está página html é muito simples e tem por finalidade
+apenas servir os arquivos da agenda 8 da matéria de
+Desenvolvimentos de sistemas módulo 2.
